@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="add_new_passenger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_new_taxi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="delete_taxi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="disp_all_pass_record.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init_passenger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init_service_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init_taxi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="move_vehicle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="passenger_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proj_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_pass_rec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="restore_passeng_rec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="service_taxi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="str_2_num.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Taxi_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="update_pass_record.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_pass_record.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_service_history.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view_taxi_record.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="emulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Passenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Taxi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="passenger file.xlsx" />
+    <None Include="passenger_binary.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Request.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="taxi.xlsx" />
+    <None Include="taxi_binary.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Taxi_list.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="passenger.txt" />
+    <Text Include="Request_bin_file.txt" />
+    <Text Include="Request_file.txt" />
+    <Text Include="taxi.txt" />
+    <Text Include="Taxi_list_bin_file.txt" />
+    <Text Include="Taxi_list_file.txt" />
+  </ItemGroup>
+</Project>
